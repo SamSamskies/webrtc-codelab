@@ -17,14 +17,16 @@
 </head>
 
 <body>
-<video id="localVideo" autoplay></video>
-<video id="remoteVideo" autoplay></video>
+  <div class="container">
+    <video id="localVideo" autoplay></video>
+    <video id="remoteVideo" autoplay></video>
 
-<div id="controls">
-  <button id="startButton">Start</button>
-  <button id="callButton">Call</button>
-  <button id="hangupButton">Hang Up</button>
-</div>
+    <div id="controls">
+      <button id="startButton">Start</button>
+      <button id="callButton">Call</button>
+      <button id="hangupButton">Hang Up</button>
+    </div>
+  </div>
 
 <script>
 var localStream, localPeerConnection, remotePeerConnection;
