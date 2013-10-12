@@ -1,14 +1,19 @@
 video {
-  position:fixed !important;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  width: 100%;
-  /*filter: hue-rotate(180deg) saturate(200%);
-  -moz-filter: hue-rotate(180deg) saturate(200%);
-  -webkit-filter: hue-rotate(180deg) saturate(200%);*/
   filter: sepia(1);
   -moz-filter: sepia(1);
   -webkit-filter: sepia(1);
+}
+
+video#localVideo {
+  float: left;
+  width: 50%;
+}
+
+video#remoteVideo {
+  float: right;
+  width: 50%;
+}
+
+#controls {
+  clear: both;
 }
